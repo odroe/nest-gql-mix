@@ -5,7 +5,7 @@ import { sentenceCase } from 'sentence-case';
 import { FieldsBuilderOptionHelper } from '../helpers';
 import { FieldsBuilderOptions } from '../interfaces';
 import { ClassVoidDecorator } from '../types';
-import { typeBuilder } from '../_';
+import { typeBuilder } from '../_$src';
 
 export const ArgsTypeBuilder =
   (...options: FieldsBuilderOptions[]): ClassVoidDecorator =>

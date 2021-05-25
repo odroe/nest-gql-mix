@@ -4,7 +4,7 @@ import { FieldsBuilderOptionHelper } from '../helpers';
 import { FieldsBuilderOptions } from '../interfaces';
 import { LIST_THIS_TYPE } from '../symbols';
 import { ClassVoidDecorator } from '../types';
-import { typeBuilder } from '../_';
+import { typeBuilder } from '../_$src';
 
 export const InputTypeBuilder =
   (
@@ -22,7 +22,7 @@ export const InputTypeBuilder =
 export function WhereInputTypeBuilder(
   options: InputTypeOptions,
   ...builderOptions: FieldsBuilderOptions[]
-) {
+): ClassVoidDecorator {
   return InputTypeBuilder(
     options,
     ...builderOptions,
@@ -45,12 +45,10 @@ export function WhereInputTypeBuilder(
 export function RelationFilterBuilder<T>(
   type: () => Type<T>,
 ): ClassVoidDecorator {
-  return (classRef) => {
-    InputTypeBuilder(
-      {},
-      FieldsBuilderOptionHelper(['every', 'some', 'none'], type, {
-        nullable: true,
-      }),
-    );
-  };
+  return InputTypeBuilder(
+    {},
+    FieldsBuilderOptionHelper(['every', 'some', 'none'], type, {
+      nullable: true,
+    }),
+  );
 }

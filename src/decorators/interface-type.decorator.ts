@@ -1,7 +1,7 @@
 import { InterfaceType, InterfaceTypeOptions } from '@nestjs/graphql';
 import { FieldsBuilderOptions } from '../interfaces';
 import { ClassVoidDecorator } from '../types';
-import { typeBuilder } from '../_';
+import { typeBuilder } from '../_$src';
 
 export const InterfaceTypeBuilder =
   (

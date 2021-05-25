@@ -4,7 +4,9 @@
   "description": "NestJS + GraphQL(code first) + Prisma, Help you to implement the Prisma template interface as a GraphQL(code first) Type classes. 🎉Fast work!",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bytegem/nest-gql-mix.git"
@@ -33,7 +35,8 @@
   },
   "peerDependencies": {
     "@nestjs/common": "^7.6.17",
-    "@nestjs/graphql": "^7.10.6"
+    "@nestjs/graphql": "^7.10.6",
+    "graphql": "^15.5.0"
   },
   "scripts": {
     "build": "tsc",

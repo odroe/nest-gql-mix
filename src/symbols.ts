@@ -2,7 +2,7 @@
  * Build field the type is `this` symbol.
  */
 export const THIS_TYPE: Symbol = Symbol(
-  '@bytegem/nestjs-graphql-binding-prisma::this-type',
+  '@bytegem/nest-gql-mix::this-type',
 );
 
 /**
