@@ -45,7 +45,7 @@ export class UserWhereInput implements Prisma.UserWhereInput {
 
 Now:
 ```typescript
-@InputTypeBuilder(
+@WhereInputTypeBuilder(
   { description: 'User where input' },
   FieldsBuilderOptionHelper(
     ['id', 'username', 'email', 'phone', /* ...more fields */],
