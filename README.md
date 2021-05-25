@@ -19,7 +19,7 @@ Before using this package:
 ```typescript
 @InputType({ description: 'This is User where input' })
 export class UserWhereInput implements Prisma.UserWhereInput {
-    @Field((type) => [UserWhereInput], { nullable: true })
+  @Field((type) => [UserWhereInput], { nullable: true })
   AND?: UserWhereInput[];
 
   @Field((type) => [UserWhereInput], { nullable: true })
@@ -53,7 +53,7 @@ Now:
     { nullable: true },
   ),
 )
-export class PermissionWhereInput extends InterfaceTransformAbstract<Prisma.UserWhereInput>>() {}
+export class UserWhereInput extends InterfaceTransformAbstract<Prisma.UserWhereInput>>() {}
 ```
 
 > `extends InterfaceTransformAbstract<T>()` is optional. After adding it, you can prompt the IDE code when you actively use this class. Not inheriting has no effect on the actual operation.
