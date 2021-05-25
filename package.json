@@ -1,6 +1,6 @@
 {
   "name": "@bytegem/nest-gql-mix",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "NestJS + GraphQL(code first) + Prisma, Help you to implement the Prisma template interface as a GraphQL(code first) Type classes. 🎉Fast work!",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
