@@ -1,18 +1,16 @@
-# NestJS GraphQL binding Prisma
+# NestJS GraphQL Mix
  NestJS + GraphQL(code first) + Prisma, Help you to implement the Prisma template interface as a GraphQL(code first) Type classes. 🎉Fast work!
-
- > Change package to `@bytegem/nest-gql-mix`
 
 ## Installation
 
 Via NPM:
 ```shell
-npm i @bytegem/nestjs-graphql-binding-prisma
+npm i @bytegem/nest-gql-mix
 ```
 
 Or via Yarn:
 ```shell
-yarn add @bytegem/nestjs-graphql-binding-prisma
+yarn add  @bytegem/nest-gql-mix
 ```
 
 ## Using

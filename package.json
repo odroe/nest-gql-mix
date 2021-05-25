@@ -1,12 +1,12 @@
 {
-  "name": "@bytegem/nestjs-graphql-binding-prisma",
+  "name": "@bytegem/nest-gql-mix",
   "version": "0.0.3",
   "description": "NestJS + GraphQL(code first) + Prisma, Help you to implement the Prisma template interface as a GraphQL(code first) Type classes. 🎉Fast work!",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bytegem/nestjs-graphql-binding-prisma.git"
+    "url": "git+https://github.com/bytegem/nest-gql-mix.git"
   },
   "keywords": [
     "NestJS",
@@ -18,9 +18,9 @@
   "author": "ByteGem <service@bytegem.net>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bytegem/nestjs-graphql-binding-prisma/issues"
+    "url": "https://github.com/bytegem/nest-gql-mix/issues"
   },
-  "homepage": "https://github.com/bytegem/nestjs-graphql-binding-prisma#readme",
+  "homepage": "https://github.com/bytegem/nest-gql-mix#readme",
   "devDependencies": {
     "@types/node": "^15.6.1",
     "prettier": "^2.3.0",
